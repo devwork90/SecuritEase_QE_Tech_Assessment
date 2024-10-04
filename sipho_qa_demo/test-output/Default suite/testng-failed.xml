@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SecuritEase.sipho_qa_demo.StandAloneTest">
+      <class name="SecuritEase.sipho_qa_demo.TableResultsValidationTest">
         <methods>
           <include name="bbcSportNewsRender"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- SecuritEase.sipho_qa_demo.StandAloneTest -->
+      </class> <!-- SecuritEase.sipho_qa_demo.TableResultsValidationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
